@@ -37,7 +37,7 @@
                 18th of November 2015, Singapore
             </p>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
-                <div class="input"><span><input type="text" name="fname" placeholder="First name" autofocus /><input type="email" name="email" placeholder="E-Mail Address" /><input type="submit" value="Subscribe" /></span></div>
+                <div class="input"><span><input type="text" name="fname" placeholder="First name" autofocus /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
                 <div class="msg"><span></span></div>
             </form>
     	    </p>
