@@ -138,9 +138,8 @@ a {
 
 
 #subscribeForm {
-    position: relative;
-    margin: 40px auto 90px;
-    width: 480px;
+    width: 460px !important;
+    margin: 0 -230px !important;
     bottom: 100px;
 }
 
@@ -164,13 +163,6 @@ a {
          font-size: 0.8em;
 }
 
-
-#subscribeForm .input {
-	bottom: 65px;
-	width: 480px;
-	margin: 0 -200px;
-	left: 50%;
-}
 #subscribeForm .input span {
 	display: block;
 }
@@ -186,13 +178,13 @@ a {
   background: none;
   color: #fff;
   outline: 0;
-  width: 170px;
+  width: 150px;
   height: 40px;
   border-radius: 4px 0 0 4px;
 }
 #subscribeForm .input input[type='email'] {
   position: absolute;
-  left: 200px;
+  left: 180px;
   font-size: 20px;
   line-height: 40px;
   padding: 0 15px;
@@ -203,12 +195,12 @@ a {
   background: none;
   color: #fff;
   outline: 0;
-  width: 170px;
+  width: 150px;
   height: 40px;
 }
 #subscribeForm .input input[type='submit'] {
     position: absolute;
-	left: 400px;
+	left: 360px;
 	width: 100px;
 	  font-family: 'Open Sans';
 	    padding: 0 15px;
