@@ -79,9 +79,6 @@
 						c-3.148-10.039-4.717-23.687-4.717-40.964v-136.02c0-75.874,30.588-126.408,95.176-152.999l53.976-22.222
 						c73.83-30.396,112.997-2.782,112.997,84.692v74.674L625.625,207.87z"/>
 				</g>
-				<animateTransform attributeName="transform" attributeType="XML" type="scale" from="0.7" to="1" begin="0s" dur="6s" fill="freeze" />
-				<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="21"
-				to="0" begin="0s" dur="6s" fill="freeze" />
 			</g>
 			<g id="conf">
 				<path fill="#fff" d="M116.417,934.227c1.281,0.963,1.121,1.923,0.479,3.206c-2.563,4.967-15.705,26.922-49.84,26.922
