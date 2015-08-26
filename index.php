@@ -1,3 +1,6 @@
+<?php
+  date_default_timezone_set('Asia/Singapore');
+?>
 <!doctype html>
 <!--
 
@@ -31,7 +34,7 @@
 	    <div>
     	    <div class="logo" style="opacity: 0;"><a href="http://twitter.com/cssconfasia"><img src="img/cssconfasia.svg" alt="CSSConf.Asia 2015 Singapore" /></a></div>
             <p class="desc">
-                Bridging web design and implementation
+                Early-Buddy-Tickets <span id="countdown"></span>
             </p>
             <p class="date">
                 18th of November 2015, Singapore
@@ -59,6 +62,51 @@
 
       ga('create', 'UA-31025490-8', 'auto');
       ga('send', 'pageview');
+
+   CountDownTimer('08/28/2015 3:0 PM', 'countdown');
+
+    function CountDownTimer(dt, id)
+    {
+        var end = new Date(dt);
+
+        var _second = 1000;
+        var _minute = _second * 60;
+        var _hour = _minute * 60;
+        var _day = _hour * 24;
+        var start = new Date('<?php echo date("r"); ?>');
+        var startjs = new Date();
+        var diff = startjs - start;
+        var timer;
+
+        function showRemaining() {
+            var now = new Date();
+            var passed = now - startjs;
+            var distance = end - start - passed;
+            if (distance < 0) {
+
+                clearInterval(timer);
+                document.getElementById(id).innerHTML = ' NOW!';
+
+                return;
+            }
+            var days = Math.floor(distance / _day);
+            var hours = days * 24 + Math.floor((distance % _day) / _hour);
+            var minutes = Math.floor((distance % _hour) / _minute);
+            var seconds = Math.floor((distance % _minute) / _second);
+
+          if(seconds < 10)
+            seconds = "0" + seconds;
+
+          if(minutes < 10)
+            minutes = "0" + minutes;
+
+            document.getElementById(id).innerHTML = 'in ' + hours + ':';
+            document.getElementById(id).innerHTML += minutes + ':';
+            document.getElementById(id).innerHTML += seconds;
+        }
+
+        timer = setInterval(showRemaining, 1000);
+    }
 
     </script>
 </body>

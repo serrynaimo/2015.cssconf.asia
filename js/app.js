@@ -55,6 +55,7 @@ setTimeout(function() {
 	$("body").removeClass("loading");
 }, 1400);
 
+/*
 var menuVisible = false
 var fromTop = parseInt($('.menu').offset().top, 10) - 60;
 $(window).on("scroll touchmove", function (e) {
@@ -66,4 +67,4 @@ $(window).on("scroll touchmove", function (e) {
 		$("body").removeClass("visible");
 		menuVisible = false;
 	}
-});
+});*/
