@@ -33,11 +33,11 @@
 	<section id="intro">
 	    <div>
     	    <div class="logo" style="opacity: 0;"><a href="http://twitter.com/cssconfasia"><img src="img/cssconfasia.svg" alt="CSSConf.Asia 2015 Singapore" /></a></div>
-            <p class="desc">
-                Early-Buddy-Tickets <span id="countdown"></span>
-            </p>
             <p class="date">
                 18th of November 2015, Singapore
+            </p>
+            <p class="desc">
+                <a href="http://blog.devfest.asia/early-buddy-tickets-for-cssconf-and-jsconf-asia/" style="color: white; text-decoration: none;" target="_blank">Early-Buddy-Tickets <span id="countdown">THIS FRIDAY</span></a>
             </p>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
                 <div class="input"><span><input type="text" name="fname" placeholder="First name" autofocus /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
