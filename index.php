@@ -86,6 +86,7 @@
 
                 clearInterval(timer);
                 document.getElementById(id).innerHTML = ' NOW!';
+                document.getElementById(id).src="https://www.eventnook.com/event/register/55645";
 
                 return;
             }
