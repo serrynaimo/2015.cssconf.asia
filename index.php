@@ -63,7 +63,7 @@
       ga('create', 'UA-31025490-8', 'auto');
       ga('send', 'pageview');
 
-   CountDownTimer('08/28/2015 3:0 PM', 'countdown');
+   CountDownTimer('Fri 08 Sep 2015 10:00:00 +0800', 'countdown');
 
     function CountDownTimer(dt, id)
     {
