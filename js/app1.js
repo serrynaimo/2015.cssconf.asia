@@ -55,16 +55,16 @@ setTimeout(function() {
 	$("body").removeClass("loading");
 }, 1400);
 
-/*
+
 var menuVisible = false
-var fromTop = parseInt($('.menu').offset().top, 10) - 60;
+var fromTop = parseInt($('#body').offset().top, 10) - 250;
 $(window).on("scroll touchmove", function (e) {
-	if(window.pageYOffset > fromTop && !menuVisible) {
-		$("body").addClass("visible");
+	if(window.pageYOffset > fromTop + 60 && !menuVisible) {
 		menuVisible = true;
+		$("body").addClass("visible");
 	}
 	else if(window.pageYOffset <= fromTop && menuVisible) {
 		$("body").removeClass("visible");
 		menuVisible = false;
 	}
-});*/
+});
