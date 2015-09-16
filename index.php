@@ -59,40 +59,59 @@
             <div class="speaker">
                 <div class="image">
                     <img src="img/glen_maddern.jpg" border="0" />
-                    <div class="name">
-                        Glen Maddern
-                    </div>
-                    <div class="link">
-                        <a href="http://twitter.com/glenmaddern" target="_blank">@glenmaddern</a>
-                    </div>
+                </div>
+                <div class="name">
+                    Glen Maddern
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/glenmaddern" target="_blank">@glenmaddern</a>
                 </div>
 
             </div>
-            <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHFbT0mLTNMtMGO1mo6yPRX" target="_blank" class="button">
-                Watch the talk videos!
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/aysha.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Aysha Anggraini
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/renettarenula" target="_blank">@renettarenula</a>
+                </div>
+
+            </div>
+           <div class="speaker">
+                <div class="image">
+                    <img src="img/jeff.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Jeffrey Lembeck
+                </div>
+                <div class="link">
+                    <a href="https://twitter.com/jefflembeck" target="_blank">@jefflembeck</a>
+                </div>
+
+            </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/apoorv.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Apoorv Saxena
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/apoorv_saxena" target="_blank">@apoorv_saxena</a>
+                </div>
+
+            </div>
+            <a href="https://www.eventnook.com/event/devfestasia2015/home" target="_blank" class="button">
+                Get your ticket
             </a>
         </section>
         <section id="about">
             <h2>About</h2>
             <p>
             <i>CSSConf is where design meets developers to inspire, educate and entertain around building the world’s most engaging user interfaces.</i>
-            </p>
-            <h3>We haz the Speakers, the Wifis, the foods, the parties...</h3>
-            <p>
-            ...or what we consider the essentials for a great event. You just learn so much better when you’re happy and connected.
-            </p>
-            <p>
-            <a href="http://www.jimmymonkey.com/" target="_blank"><img src="img/jimmy.png" style="float: right; margin: 0 -25px 0 20px;"height="138" /></a>
-            Jimmy Monkey will be there for 8 hours of non-stop coffee brewing and pulling shots. They craft maybe the most sophisticated espresso based coffees in all of Singapore and will be running our café. But don’t worry: It’s not that the conference content will be tiring... ;-)
-            </p>
-            <h3>It’s for you!</h3>
-            <p>
-            Together with <a href="http://2014.jsconf.asia">JSConf</a>, we want to make community events that bring Southeast-Asia’s best web designers together in a playful and informal environment. It’s gonna be a great setting for learning and exchange and we can’t wait to see you there!
-            </p>
-            <p align="right">
-                <a href="https://twitter.com/serrynaimo" target="_blank"><img src="img/thomas.png" alt="Thomas" height="40" /></a> &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="https://twitter.com/thedesignnomad" target="_blank"><img src="img/melissa.png" alt="Melissa" height="37" valign="top" /></a> &nbsp; &nbsp;
-                <a href="https://twitter.com/ramanshalupau" target="_blank"><img src="img/raman.png" alt="Raman" height="35" valign="top" /></a>
             </p>
         </section>
         <!--<section id="sponsors">
@@ -104,7 +123,7 @@
         </section>//-->
         <footer>
             <p>
-                <a href="http://2015.devfest.asia"><img src="http://2015.devfest.asia/assets/devfestasia.png" height="100" alt="Singapore DevFest.Asia 2015"/></a>
+                <a href="http://2015.devfest.asia"><img src="http://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2015"/></a>
             </p>
             <p>
                 CSSConf.Asia is proudly part of Asia’s first<br/> community organized web developer festival.<br/><br/>
@@ -113,7 +132,8 @@
 
                 <br/><br/><br/>
                 A Nerdherd Pte. Ltd. event<br/>
-                <a class="terms" href="terms.html">Terms &amp; Conditions</a><br/><br/>
+                <a class="terms" href="http://2015.devfest.asia/terms-and-conditions.html">Terms &amp; Conditions</a><br/>
+                <a class="terms" href="http://2015.devfest.asia/code-of-conduct.html">Code of Conduct</a><br/><br/>
             </p>
         </footer>
     </section>
@@ -121,8 +141,8 @@
         <img src="assets/cssconfasia_icon.png" height="48" /><br/>
         <a href="#schedule">Speakers</a> &nbsp; &#x2605; &nbsp;
         <a href="#about">About</a> &nbsp; &#x2605; &nbsp;
-        <a href="#sponsors">Sponsors</a> &nbsp; &#x2605; &nbsp;
-        <a href="http://facebook.com/cssconfasia">Get Updates</a>
+        <a href="http://facebook.com/cssconfasia">Updates</a> &nbsp; &#x2605; &nbsp;
+        <a href="https://www.eventnook.com/event/devfestasia2015/home">Get Ticket</a>
     </nav>
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
