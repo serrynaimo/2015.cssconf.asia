@@ -36,11 +36,9 @@
             <p class="date">
                 18th of November 2015, Singapore
             </p>
-            <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
-                <div class="input"><span><input type="text" name="fname" placeholder="First name" autofocus /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
-                <div class="msg"><span></span></div>
-            </form>
-    	    </p>
+            <a href="https://www.eventnook.com/event/devfestasia2015/home" target="_blank" class="button">
+                Get your ticket
+            </a>
 	    </div>
 	</section>
     <section id="body">
@@ -55,7 +53,11 @@
         </section>
         <a name="schedule"></a>
         <section id="speakers">
-            <h2>Speakers</h2>
+            <h2>Designing the web</h2>
+            <p>
+            <i>CSSConf.Asia is where design meets developers to inspire, educate and entertain around building the world’s most engaging user interfaces.</i>
+            </p>
+            <br/><br/><br/>
             <div class="speaker">
                 <div class="image">
                     <img src="img/glen_maddern.jpg" border="0" />
@@ -104,17 +106,19 @@
                 </div>
 
             </div>
-            <a href="https://www.eventnook.com/event/devfestasia2015/home" target="_blank" class="button">
-                Get your ticket
-            </a>
+            <p style="text-align:center; margin: 0 0 0 20px">and more to come...</p>
+            <br/>
+            <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
+                <div class="input"><span><input type="text" name="fname" placeholder="First name" autofocus /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
+                <div class="msg"><span></span></div>
+            </form>
+            <br/><br/><br/>
         </section>
-        <section id="about">
+        <!--<section id="about">
             <h2>About</h2>
-            <p>
-            <i>CSSConf is where design meets developers to inspire, educate and entertain around building the world’s most engaging user interfaces.</i>
-            </p>
+
         </section>
-        <!--<section id="sponsors">
+        <section id="sponsors">
             <h2>Sponsors</h2>
             <div class="sponsor"></div>
             <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHFbT0mLTNMtMGO1mo6yPRX" target="_blank" class="button">
@@ -139,10 +143,9 @@
     </section>
     <nav>
         <img src="assets/cssconfasia_icon.png" height="48" /><br/>
-        <a href="#schedule">Speakers</a> &nbsp; &#x2605; &nbsp;
-        <a href="#about">About</a> &nbsp; &#x2605; &nbsp;
+        <a href="#speakers">Speakers</a> &nbsp; &#x2605; &nbsp;
         <a href="http://facebook.com/cssconfasia">Updates</a> &nbsp; &#x2605; &nbsp;
-        <a href="https://www.eventnook.com/event/devfestasia2015/home">Get Ticket</a>
+        <a href="https://www.eventnook.com/event/devfestasia2015/home">Get Your Ticket</a>
     </nav>
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>

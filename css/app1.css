@@ -19,7 +19,7 @@ nav {
   color: #c7950a;
   padding: 50px 0 8px;
   top: -40px;
-  background: rgba(0,0,0,.6);
+  background: rgba(0,0,0,.7);
   position: fixed;
   width: 100%;
   opacity: 0;
@@ -72,8 +72,10 @@ a {
 }
 
 .button {
-    background: #c7950a;
+    border: 1px solid #c7950a;
     color: #fff;
+    font-weight: 600;
+    letter-spacing: -1px;
     font-size: 15px;
     border-radius: 4px;
     padding: 12px 0;
@@ -217,10 +219,11 @@ a {
 
 
 
-#subscribeForm {
-    width: 460px !important;
-    margin: 0 -230px !important;
-    bottom: 100px;
+#intro .button {
+    width: 300px;
+    margin: 0 -150px !important;
+    bottom: 30px;
+    color: #fff !important;
 }
 
 ::-webkit-input-placeholder {
@@ -241,6 +244,13 @@ a {
 :-ms-input-placeholder {
       color: rgba(255,255,255,.4);
          font-size: 0.8em;
+}
+
+#subscribeForm {
+  display: block;
+  width: 480px;
+  margin: 60px auto;
+  position: relative;
 }
 
 #subscribeForm .input span {
@@ -380,8 +390,9 @@ a {
 
 #body {
   position: absolute;
-  top: 76%;
+  top: 100%;
   width: 100%;
+  margin: -80px 0 0;
   height: 200px;
   z-index: 11;
 }
@@ -446,6 +457,10 @@ a {
 
 #body .date a:hover {
     color: #fff;
+}
+
+#info {
+  padding: 0 !important;
 }
 
 #info p {
@@ -681,12 +696,12 @@ a {
     color: #c7950a;
 }
 
-#intro .menu a, nav a {
+nav a {
     color: #c7950a;
     text-decoration: none;
 }
 
-#body footer p a:hover, #intro .menu a:hover, nav a:hover {
+nav a:hover {
     color: #fff;
 }
 
