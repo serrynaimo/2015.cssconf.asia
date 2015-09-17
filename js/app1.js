@@ -47,6 +47,9 @@ $("#subscribeForm .msg").click(function() {
 
 $currentSpeaker = $();
 $('.speaker').click(function(e) {
+	if($(e.currentTarget).is('a')) {
+		return;
+	}
 	if($(e.currentTarget).hasClass('open')) {
 		$(e.currentTarget).removeClass('open');
 	}

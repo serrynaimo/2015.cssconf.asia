@@ -30,12 +30,17 @@ nav {
 nav:before {
   content: "";
   position: absolute;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  transition: opacity .2s linear;
   bottom: -3px;
   height: 7px;
   width: 14px;
   left: -30px;
   border-radius: 4px;
   -webkit-transform: translateX(1000px);
+  -moz-transform: translateX(1000px);
+  transform: translateX(1000px);
   background: rgba(255,204,0,0.8);
   box-shadow: 10px 0 10px rgba(255,204,0,1);
 }
@@ -43,11 +48,16 @@ nav:before {
 nav:after {
   content: "";
   position: absolute;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  transition: opacity .2s linear;
   bottom: 0px;
   height: 1px;
   width: 100%;
   left: 0;
   -webkit-transform: translateX(1000px);
+  -moz-transform: translateX(1000px);
+  transform: translateX(1000px);
   background: rgba(255,204,0,.97);
   box-shadow: 3px 0px 5px rgba(255,204,0,.97);
 }
@@ -55,16 +65,26 @@ nav:after {
 .visible nav {
   opacity: 1;
   -webkit-transition: opacity 1s ease-out;
+  -moz-transition: opacity 1s ease-out;
+  transition: opacity 1s ease-out;
 }
 
 .visible nav:before {
   -webkit-transform: translateX(0px);
   -webkit-transition: all .6s linear;
+  -moz-transform: translateX(0px);
+  -moz-transition: all .6s linear;
+  transform: translateX(0px);
+  transition: all .6s linear;
 }
 
 .visible nav:after {
   -webkit-transform: translateX(0);
   -webkit-transition: all .6s linear;
+  -moz-transform: translateX(0);
+  -moz-transition: all .6s linear;
+  transform: translateX(0);
+  transition: all .6s linear;
 }
 
 a {
@@ -86,6 +106,18 @@ a {
     box-shadow: 5px 5px 0 #e8b800, 4px 4px 0 #e8b800, 3px 3px 0 #e8b800, 2px 2px 0 #e8b800, 1px 1px 0 #e8b800;
     position: relative;
     text-align: center;
+    background: -webkit-linear-gradient(top left, rgba(127,102,0,0.1), rgba(255,204,0,0.2));
+    background: -moz-linear-gradient(top left, rgba(127,102,0,0.1), rgba(255,204,0,0.2));
+    background: linear-gradient(top left, rgba(127,102,0,0.1), rgba(255,204,0,0.2));
+}
+
+.button:hover {
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+  background: -webkit-linear-gradient(top left, rgba(127,102,0,0.6), rgba(255,204,0,0.5));
+  background: -moz-linear-gradient(top left, rgba(127,102,0,0.6), rgba(255,204,0,0.5));
+  background: linear-gradient(top left, rgba(127,102,0,0.6), rgba(255,204,0,0.5));
 }
 
 .button span {
@@ -108,6 +140,8 @@ a {
 
 #background {
   -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  transition: all .5s linear;
 	background: -webkit-linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,.6)), url(../img/background_fire_s.jpg) 50% 50% no-repeat;
 	background: -moz-linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,.6)), url(../img/background_fire_s.jpg) 50% 50% no-repeat;
 	background: linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,.6)), url(../img/background_fire_s.jpg) 50% 50% no-repeat;
@@ -116,7 +150,11 @@ a {
 
 .visible #background {
   -webkit-transition: all 3s linear;
-    -webkit-filter: blur(12px);
+  -webkit-filter: blur(12px);
+  -moz-transition: all 3s linear;
+  -moz-filter: blur(12px);
+  transition: all 3s linear;
+  filter: blur(12px);
 }
 
 #intro {
@@ -126,6 +164,9 @@ a {
   margin: -360px 0;
   height: 660px;
   z-index: 10;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 #intro > div {
@@ -211,10 +252,14 @@ a {
   position: relative;
   width: 110px;
   -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
 }
 
 .links a:hover > img {
   -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
@@ -260,7 +305,7 @@ a {
   position: absolute;
   left: 0px;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 39px;
   padding: 0 15px;
   font-family: 'Open Sans';
   border: 1px solid #c7950a;
@@ -306,7 +351,7 @@ a {
 	-moz-appearance: none;
 }
 #subscribeForm .input input[type='submit']:hover {
-	background: #c7950a;
+	background: #e8b800;
 }
 #subscribeForm.load .input input[type='submit'] {
 	background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, rgba(0, 0, 0, .1)),color-stop(.25, transparent), color-stop(.5, transparent),color-stop(.5, rgba(0, 0, 0, .1)),color-stop(.75, rgba(0, 0, 0, .1)),color-stop(.75, transparent), to(transparent)	   );
@@ -491,6 +536,19 @@ a {
   border-radius: 110px;
   border: 5px solid #fff;
   overflow: hidden;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#speakers .speaker.open .image {
+  z-index: 40;
+  -webkit-transform: scale(.5) translate(0,-350px);
+  -moz-transform: scale(.5) translate(0,-350px);
+  transform: scale(.5) translate(0,-350px);
 }
 
 #speakers .speaker .image:after {
@@ -501,6 +559,8 @@ a {
   top: 0;
   left: 0;
   background: -webkit-linear-gradient(top left, rgba(127,102,0,0.3), rgba(255,204,0,0.5));
+  background: -moz-linear-gradient(top left, rgba(127,102,0,0.3), rgba(255,204,0,0.5));
+  background: linear-gradient(top left, rgba(127,102,0,0.3), rgba(255,204,0,0.5));
 }
 
 #speakers .speaker .image img {
@@ -508,6 +568,8 @@ a {
   width: 200px;
   height: 200px;
   -webkit-filter: saturation(.6) contrast(1.4);
+  -moz-filter: saturation(.6) contrast(1.4);
+  filter: saturation(.6) contrast(1.4);
 }
 
 #speakers .speaker .name {
@@ -544,6 +606,13 @@ a {
   opacity: 0;
   -webkit-transform: scale(.7);
   -webkit-transition: all .2s ease-out;
+  -moz-transform: scale(.7);
+  -moz-transition: all .2s ease-out;
+  transform: scale(.7);
+  transition: all .2s ease-out;
+   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 #speakers .speaker .bio a {
@@ -556,6 +625,8 @@ a {
 #speakers .speaker.open .bio {
   opacity: 1;
   -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
 }
 
 
