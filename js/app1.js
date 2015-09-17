@@ -45,10 +45,19 @@ $("#subscribeForm .msg").click(function() {
 	$("#subscribeForm input[name='email']").focus();
 });
 
+$currentSpeaker = $();
 $('.speaker').click(function(e) {
-	if(!$(e.currentTarget).hasClass('dot')) {
-	   $(e.currentTarget).toggleClass('open');
+	if($(e.currentTarget).hasClass('open')) {
+		$(e.currentTarget).removeClass('open');
 	}
+	else {
+		if($currentSpeaker.hasClass('open')) {
+			$currentSpeaker.removeClass('open');
+		}
+		$(e.currentTarget).addClass('open');
+	}
+
+	$currentSpeaker = $(e.currentTarget);
 });
 
 setTimeout(function() {

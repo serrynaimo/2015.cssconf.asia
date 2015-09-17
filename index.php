@@ -68,7 +68,18 @@
                 <div class="link">
                     <a href="http://twitter.com/glenmaddern" target="_blank">@glenmaddern</a>
                 </div>
-
+                <div class="bio" style="padding: 57px 0 0;">
+                    Glen Maddern is an<br/>
+                    independent front-end consultant<br/>
+                    from Melbourne, Australia. He's an<br/>
+                    organiser of CSS Conf AU, a co-creator<br/>
+                    of the CSS Modules standard, contributor<br/>
+                    to the JSPM ecosystem, and all-round<br/>
+                    builder of rad web things. But his<br/>
+                    true calling is to become the<br/>
+                    world's greatest GIF DJ<br/>
+                    (any day now...)
+                </div>
             </div>
             <div class="speaker">
                 <div class="image">
@@ -80,7 +91,21 @@
                 <div class="link">
                     <a href="http://twitter.com/renettarenula" target="_blank">@renettarenula</a>
                 </div>
-
+                <div class="bio" style="padding: 34px 0 0;">
+                    Aysha Anggraini is a<br/>
+                    front-end engineer and wannabe<br/>
+                    designer at Viki, where she works<br/>
+                    closely with the UX team in order to<br/>
+                    build functional and beautiful UIs on<br/>
+                    viki.com and Viki's internal tools. When<br/>
+                    she is not super busy (which is rare<br/>
+                    these days), she either writes about<br/>
+                    geeky stuff on her blog renaysha.me<br/>
+                    or build experimental and pretty<br/>
+                    things on <a href="http://codepen.io/rrenula" target="_blank">CodePen</a>. She loves<br/>
+                    design, gaming, dancing,<br/>
+                    and Yoga.
+                </div>
             </div>
            <div class="speaker">
                 <div class="image">
@@ -92,7 +117,20 @@
                 <div class="link">
                     <a href="https://twitter.com/jefflembeck" target="_blank">@jefflembeck</a>
                 </div>
-
+                <div class="bio" style="padding: 37px 0 0;">
+                    Jeff Lembeck is a<br/>
+                    developer over at npm, inc.<br/>
+                    He writes a whole lot of code and<br/>
+                    the occasional post for A List Apart,<br/>
+                    has guest lectured and TA'd for Ada<br/>
+                    Developers Academy, and is a former<br/>
+                    member of the jQuery Mobile team. Jeff<br/>
+                    lives in Seattle where he obsesses over<br/>
+                    oyster happy hours and how to make<br/>
+                    the best negroni. He dreams of<br/>
+                    someday owning a<br/>
+                    hot tub boat.
+                </div>
             </div>
             <div class="speaker">
                 <div class="image">
@@ -104,7 +142,14 @@
                 <div class="link">
                     <a href="http://twitter.com/apoorv_saxena" target="_blank">@apoorv_saxena</a>
                 </div>
-
+                <div class="bio" style="padding: 94px 0 0;">
+                    A web standards lover,<br/>
+                    performance coach and polygot<br/>
+                    programmer. I work as Software<br/>
+                    Artisan at Wingify. In my spare time,<br/>
+                    I love to experiment stuff<br/>
+                    in kitchen and travel.
+                </div>
             </div>
             <p style="text-align:center; margin: 0 0 0 20px">and more to come...</p>
             <br/>
@@ -132,7 +177,7 @@
             <p>
                 CSSConf.Asia is proudly part of Asia’s first<br/> community organized web developer festival.<br/><br/>
 
-                Checkout CSSConf in the<br/><a href="http://cssconf.com">United States</a>, <a href="http://cssconf.eu">Europe</a> and <a href="http://cssconf.com.au">Australia</a>
+                Checkout CSSConf in <a href="http://cssconf.org">other countries</a>.
 
                 <br/><br/><br/>
                 A Nerdherd Pte. Ltd. event<br/>

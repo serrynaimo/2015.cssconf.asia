@@ -475,14 +475,16 @@ a {
 }
 
 #speakers .speaker {
+  position: relative;
   display: inline-block;
   vertical-align: top;
   width: 210px;
   padding: 0 15px 45px 15px;
   text-align: center;
+  cursor: pointer;
 }
 
-.speaker .image {
+#speakers .speaker .image {
   position: relative;
   width: 200px;
   height: 200px;
@@ -491,7 +493,7 @@ a {
   overflow: hidden;
 }
 
-.speaker .image:after {
+#speakers .speaker .image:after {
   content: "";
   position: absolute;
   width: 200px;
@@ -501,25 +503,63 @@ a {
   background: -webkit-linear-gradient(top left, rgba(127,102,0,0.3), rgba(255,204,0,0.5));
 }
 
-.speaker .image img {
+#speakers .speaker .image img {
   border-radius: 110px;
   width: 200px;
   height: 200px;
   -webkit-filter: saturation(.6) contrast(1.4);
 }
 
-.speaker .name {
+#speakers .speaker .name {
   font-size: 1.2em;
   font-family: 'Sanchez';
   color: #fff;
   padding: 10px 0 0 0;
 }
 
-.speaker a {
+#speakers .speaker a {
   color: rgba(255,204,0,1);
   text-decoration: none;
   font-size: 0.8em;
 }
+
+
+#speakers .speaker .bio {
+  opacity: 1;
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  left: -40px;
+  top: -55px;
+  font-family: 'Open Sans';
+  border-radius: 320px;
+  border: 5px solid #fff;
+  background: #e8b800;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px rba(0,0,0,.2);
+  font-size: 0.95em;
+  text-align: center;
+  z-index: 20;
+  opacity: 0;
+  -webkit-transform: scale(.7);
+  -webkit-transition: all .2s ease-out;
+}
+
+#speakers .speaker .bio a {
+  color: #fff;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+
+#speakers .speaker.open .bio {
+  opacity: 1;
+  -webkit-transform: scale(1);
+}
+
+
+
 
 #schedule .column {
     margin: 0 auto;
