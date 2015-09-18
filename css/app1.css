@@ -137,7 +137,6 @@ a {
   top: 0;
   height: 115vh;
   z-index: 1;
-  -webkit-transform: translateZ(-1px);
 }
 
 #background {
