@@ -834,10 +834,7 @@ nav a:hover {
 
 @media all and (max-width: 759px) {
   .visible #background {
-    -webkit-transition: none;
     -webkit-filter: none;
-    transition: none;
-    opacity: 1;
   }
 }
 
