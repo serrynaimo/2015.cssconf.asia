@@ -39,10 +39,6 @@
             <a href="https://www.eventnook.com/event/devfestasia2015/home" target="_blank" class="button">
                 Get your ticket
             </a>
-	    </div>
-	</section>
-    <section id="body">
-        <section id="info">
             <p class="links">
                 <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
                 <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
@@ -50,7 +46,9 @@
                 <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
                 <a href="mailto:sponsors@jsconf.asia">Sponsor<br/>interest?</a>
             </p>
-        </section>
+	    </div>
+	</section>
+    <section id="body">
         <a name="schedule"></a>
         <section id="speakers">
             <h2>Designing the web</h2>
@@ -154,7 +152,7 @@
             <p style="text-align:center; margin: 0 0 0 20px">and more to come...</p>
             <br/>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
-                <div class="input"><span><input type="text" name="fname" placeholder="First name" autofocus /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
+                <div class="input"><span><input type="text" name="fname" placeholder="First name" /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
                 <div class="msg"><span></span></div>
             </form>
             <br/><br/><br/>

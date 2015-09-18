@@ -24,6 +24,7 @@ nav {
   width: 100%;
   opacity: 0;
   z-index: 50;
+  height: 72px;
 }
 
 
@@ -64,9 +65,9 @@ nav:after {
 
 .visible nav {
   opacity: 1;
-  -webkit-transition: opacity 1s ease-out;
-  -moz-transition: opacity 1s ease-out;
-  transition: opacity 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 .visible nav:before {
@@ -146,23 +147,23 @@ a {
 	background: -moz-linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,.6)), url(../img/background_fire_s.jpg) 50% 50% no-repeat;
 	background: linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,.6)), url(../img/background_fire_s.jpg) 50% 50% no-repeat;
 	background-size: cover;
+  opacity: 1;
 }
 
 .visible #background {
   -webkit-transition: all 3s linear;
-  -webkit-filter: blur(12px);
-  -moz-transition: all 3s linear;
-  -moz-filter: blur(12px);
+  -webkit-filter: blur(4px);
   transition: all 3s linear;
-  filter: blur(12px);
+  opacity: 0.5;
 }
 
 #intro {
   position: absolute;
   top: 50%;
   width: 100%;
-  margin: -360px 0;
-  height: 660px;
+  margin: -50vh 0;
+  height: 100vh;
+  min-height: 660px;
   z-index: 10;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -188,7 +189,7 @@ a {
 
 #intro .logo img {
 	width: 240px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #intro .logo {
@@ -215,7 +216,7 @@ a {
 }
 
 #intro p.desc {
-    bottom: 190px;
+    bottom: 220px;
    	font-size: .8rem;
 	font-size: 1.5em;
 	font-family: 'Sanchez';
@@ -224,14 +225,16 @@ a {
 }
 
 #intro p.date {
-    bottom: 130px;
+    bottom: 180px;
 	font-size: 2.2em;
 	font-family: 'Great Vibes';
 	color: #FFCC00;
 }
 
 
-#info .links {
+#intro .links {
+  position: absolute;
+  bottom: -20px;
   left: 0;
   margin: 0 auto;
   width: 100%;
@@ -267,7 +270,7 @@ a {
 #intro .button {
     width: 300px;
     margin: 0 -150px !important;
-    bottom: 30px;
+    bottom: 110px;
     color: #fff !important;
 }
 
@@ -437,8 +440,7 @@ a {
   position: absolute;
   top: 100%;
   width: 100%;
-  margin: -80px 0 0;
-  height: 200px;
+  height: 1000px;
   z-index: 11;
 }
 
@@ -468,7 +470,7 @@ a {
 }
 
 #body section, footer {
-  padding: 100px 0 0;
+  padding: 120px 0 0;
 }
 
 #body section h2 {
@@ -502,16 +504,6 @@ a {
 
 #body .date a:hover {
     color: #fff;
-}
-
-#info {
-  padding: 0 !important;
-}
-
-#info p {
-  padding: 0px;
-  width: 500px;
-  text-align: center;
 }
 
 #speakers {
