@@ -70,7 +70,7 @@ setTimeout(function() {
 
 var menuVisible = false
 var fromTop = 200;
-$(window).on("scroll touchmove", function (e) {
+$(window).on("scroll", function (e) {
 	if(window.pageYOffset > fromTop + 60 && !menuVisible) {
 		menuVisible = true;
 		$("body").addClass("visible");
