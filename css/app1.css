@@ -15,7 +15,7 @@ nav {
   font-size: 1rem;
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Doppio One';
+  font-family: 'Sanchez';
   color: #c7950a;
   padding: 50px 0 8px;
   top: -40px;
@@ -135,7 +135,7 @@ a {
   width: 100%;
   min-height: 660px;
   top: 0;
-  bottom: 0;
+  height: 115vh;
   z-index: 1;
   -webkit-transform: translateZ(-1px);
 }
