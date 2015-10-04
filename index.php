@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<title>CSSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Sanchez|Great+Vibes' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app1.css" />
+	<link rel="stylesheet" type="text/css" href="css/app2.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500, user-scalable=no" />
@@ -238,7 +238,7 @@
                     elegant, usable experiences.
                 </div>
             </div>            
-            <p style="text-align:center; margin: 0 0 0 20px">and more to come...</p>
+            <p style="text-align:center; width: 100%; padding: 0; margin: 0;">and more to come...</p>
             <br/>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
                 <div class="input"><span><input type="text" name="fname" placeholder="First name" /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
