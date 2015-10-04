@@ -40,11 +40,11 @@
                 Get your ticket
             </a>
             <p class="links">
+                <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px" /></a>
                 <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
                 <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
                 <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
                 <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
-                <a href="mailto:sponsors@jsconf.asia">Sponsor<br/>interest?</a>
             </p>
 	    </div>
 	</section>
@@ -149,6 +149,95 @@
                     in kitchen and travel.
                 </div>
             </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/mathias.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Mathias Bynens
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/mathias" target="_blank">@mathias</a>
+                </div>
+                <div class="bio" style="padding: 94px 0 0;">
+                    Mathias is a Belgian web<br/>
+                    standards enthusiast. He likes<br/>
+                    HTML, CSS, JavaScript, Unicode,<br/>
+                    performance, and security. At<br/>
+                    Opera Software he’s a member<br/>
+                    of the Developer Relations<br/>
+                    team.
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/jennifer.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Jennifer Wong
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/mybluewristband" target="_blank">@mybluewristband</a>
+                </div>
+                <div class="bio" style="padding: 52px 0 0;">
+                    Jennifer Wong is a<br/>
+                    self taught web developer.<br/>
+                    She spends her days on the front<br/>end,
+                    making the web a prettier and<br/>more
+                    functional place. In a former life,<br/>she
+                     was a civil engineer and is still a<br/>
+                     registered Engineer in Training with
+                     the<br/>California Department of Consumer<br/>
+                     Affairs. She's a jane of all
+                     trades<br/>and loves eating, 
+                     coding, and<br/>sleeping.
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/lachlan.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Lachlan Priest
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/lcpriest" target="_blank">@lcpriest</a>
+                </div>
+                <div class="bio" style="padding: 80px 0 0;">
+                    Originally from a farm in New <br/>
+                    Zealand, picked up programming<br/>
+                    while applying for a job in economics<br/>
+                    and never looked back. Mostly Rubyist,<br/>
+                    JS and CSS are my second and third<br/>
+                    loves. I teach people how to code<br/>
+                    through Rails Girls and Ruby Tea<br/>
+                    Party as I want to demystify<br/>
+                    the industry.
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/mark.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Mark Dalgleish
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/markdalgleish" target="_blank">@markdalgleish</a>
+                </div>
+                <div class="bio" style="padding: 64px 0 0;">
+                    Mark Dalgleish is the<br/>
+                    co-creator of CSS Modules, lead<br/>
+                    organiser of MelbJS, and interaction<br/>
+                    craftsman at SEEK—the most popular job<br/>
+                    site in Australia. Having got his start<br/>
+                    with HTML and UI design at a young age,<br/>
+                    he has since developed a love of open<br/>
+                    source and software engineering, but<br/>
+                    always as a means to creating<br/>
+                    elegant, usable experiences.
+                </div>
+            </div>            
             <p style="text-align:center; margin: 0 0 0 20px">and more to come...</p>
             <br/>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
