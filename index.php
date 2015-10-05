@@ -42,6 +42,7 @@
             <p class="links">
                 <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px" /></a>
                 <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
+                <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
                 <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
                 <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
                 <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
@@ -189,7 +190,7 @@
                      registered Engineer in Training with
                      the<br/>California Department of Consumer<br/>
                      Affairs. She's a jane of all
-                     trades<br/>and loves eating, 
+                     trades<br/>and loves eating,
                      coding, and<br/>sleeping.
                 </div>
             </div>
@@ -237,7 +238,7 @@
                     always as a means to creating<br/>
                     elegant, usable experiences.
                 </div>
-            </div>            
+            </div>
             <p style="text-align:center; width: 100%; padding: 0; margin: 0;">and more to come...</p>
             <br/>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
