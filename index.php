@@ -51,9 +51,9 @@
 	</section>
     <section id="body">
         <a name="schedule"></a>
-        <section id="speakers">
+        <section id="speakers" style="text-align: center;">
             <h2>Designing the web</h2>
-            <p>
+            <p style="text-align: left;">
             <i>CSSConf.Asia is where design meets developers to inspire, educate and entertain around building the world’s most engaging user interfaces.</i>
             </p>
             <br/><br/><br/>
@@ -104,6 +104,32 @@
                     things on <a href="http://codepen.io/rrenula" target="_blank">CodePen</a>. She loves<br/>
                     design, gaming, dancing,<br/>
                     and Yoga.
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/chris_lilley.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Chris Lilley
+                </div>
+                <div class="link">
+                    <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a>
+                </div>
+                <div class="bio" style="padding: 40px 0 0;">
+                    Chris Lilley is a Technical<br/>
+                    Director at the World Wide Web<br/>
+                    Consortium (W3C). Considered “the<br/>
+                    father of SVG”, he also co-authored<br/>
+                    PNG, was co-editor of CSS2, chaired<br/>
+                    the group that developed @font-face,<br/>
+                    and co-developed WOFF. Ex Technical<br/>
+                    Architecture Group. Chris is still<br/>
+                    trying to get Color Management on<br/>
+                    the Web, sigh. Currently working<br/>
+                    on CSS levels 3/4/5 (no,<br/>
+                    really), Web Audio,<br/>
+                    and WOFF2.<br/>
                 </div>
             </div>
            <div class="speaker">
@@ -237,6 +263,29 @@
                     source and software engineering, but<br/>
                     always as a means to creating<br/>
                     elegant, usable experiences.
+                </div>
+            </div>
+            <div class="speaker">
+                <div class="image">
+                    <img src="img/zell.jpg" border="0" />
+                </div>
+                <div class="name">
+                    Zell Liew
+                </div>
+                <div class="link">
+                    <a href="http://twitter.com/zellwk" target="_blank">@zellwk</a>
+                </div>
+                <div class="bio" style="padding: 62px 0 0;">
+                    Zell is a freelance web<br/>
+                    developer based in Singapore.<br/>
+                    He loves working on the web so much<br/>
+                    that he spends all his free time diving<br/>
+                    deep into tools and frameworks to find<br/>
+                    out the best ways to work with them. He<br/>
+                    then shares everything he learned on<br/>
+                    his <a href="http://zell-weekeat.com/">blog</a>. He also authored
+                    <a href="http://zell-weekeat.com/learnsusy/">Learning<br/>Susy</a> and
+                    <a href="http://zell-weekeat.com/automate-your-workflow/">Automating Your<br/>Workflow with Gulp</a>.
                 </div>
             </div>
             <p style="text-align:center; width: 100%; padding: 0; margin: 0;">and more to come...</p>
