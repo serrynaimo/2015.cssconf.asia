@@ -288,8 +288,8 @@
                     <a href="http://zell-weekeat.com/automate-your-workflow/">Automating Your<br/>Workflow with Gulp</a>.
                 </div>
             </div>
-            <p style="text-align:center; width: 100%; padding: 0; margin: 0;">and more to come...</p>
             <br/>
+            <p style="text-align:center; width: 480px; padding: 0; margin: 0 auto; text-align: left;">These are our 10 amazing speakers for the year. You can <A href="https://www.eventnook.com/event/devfestasia2015/home">get your ticket here</a> and make sure you don't miss out! Stay updated with our newsletter below:</a></p>
             <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
                 <div class="input"><span><input type="text" name="fname" placeholder="First name" /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
                 <div class="msg"><span></span></div>
