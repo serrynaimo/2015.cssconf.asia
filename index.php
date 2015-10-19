@@ -53,6 +53,8 @@
         <a name="schedule"></a>
         <section id="speakers" style="text-align: center;">
             <h2>Designing the web</h2>
+            <p style="margin-top: -20px; padding-left: 0">18th November 2015<br/><a href="http://www.museum.red-dot.sg" target="_blank">Red Dot Design Museum</a></p>
+            <br/>
             <p style="text-align: left;">
             <i>CSSConf.Asia is where design meets developers to inspire, educate and entertain around building the world’s most engaging user interfaces.</i>
             </p>
