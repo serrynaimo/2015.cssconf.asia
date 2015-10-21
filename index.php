@@ -174,9 +174,9 @@
                 <div class="bio" style="padding: 94px 0 0;">
                     A web standards lover,<br/>
                     performance coach and polygot<br/>
-                    programmer. I work as Software<br/>
-                    Artisan at Wingify. In my spare time,<br/>
-                    I love to experiment stuff<br/>
+                    programmer. Apoorv works as Software<br/>
+                    Artisan at Wingify. In his spare time,<br/>
+                    he loves to experiment stuff<br/>
                     in kitchen and travel.
                 </div>
             </div>
