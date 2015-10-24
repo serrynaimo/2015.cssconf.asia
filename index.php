@@ -36,7 +36,7 @@
             <p class="date">
                 18th of November 2015, Singapore
             </p>
-            <a href="https://www.eventnook.com/event/devfestasia2015/home" target="_blank" class="button">
+            <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" target="_blank" class="button">
                 Get your ticket
             </a>
             <p class="links">
@@ -331,7 +331,7 @@
         <img src="assets/cssconfasia_icon.png" height="48" /><br/>
         <a href="#speakers">Speakers</a> &nbsp; &#x2605; &nbsp;
         <a href="http://facebook.com/cssconfasia">Updates</a> &nbsp; &#x2605; &nbsp;
-        <a href="https://www.eventnook.com/event/devfestasia2015/home">Get Your Ticket</a>
+        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly">Get Your Ticket</a>
     </nav>
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
@@ -369,7 +369,7 @@
 
                 clearInterval(timer);
                 document.getElementById(id).innerHTML = ' NOW!';
-                document.getElementById(id).src="https://www.eventnook.com/event/register/55645";
+                document.getElementById(id).src="https://www.eventnook.com/event/devfestasia2015/register/jscssonly";
 
                 return;
             }
