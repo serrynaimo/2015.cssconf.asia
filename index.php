@@ -14,7 +14,7 @@
 	<meta charset="UTF-8">
 	<title>CSSConf.Asia Singapore 2015</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Sanchez|Great+Vibes' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/app2.css" />
+	<link rel="stylesheet" type="text/css" href="css/app3.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
 	<meta name="viewport" content="width=500, user-scalable=no" />
@@ -53,265 +53,180 @@
 	    </div>
 	</section>
     <section id="body">
-        <a name="schedule"></a>
-        <section id="speakers" style="text-align: center;">
+        <a name="speakers"></a>
+        <section id="schedule">
             <h2>Designing the web</h2>
-            <p style="margin-top: -20px; padding-left: 0">18th November 2015<br/><a href="http://www.museum.red-dot.sg" target="_blank">Red Dot Design Museum</a></p>
+            <p style="margin-top: -20px; padding-left: 0; text-align:center;">18th November 2015<br/><a href="http://www.museum.red-dot.sg" target="_blank">Red Dot Design Museum</a></p>
             <br/>
             <p style="text-align: left;">
             <i>CSSConf.Asia is where design meets developers to inspire, educate and entertain around building the world’s most engaging user interfaces.</i>
             </p>
             <br/><br/><br/>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/glen_maddern.jpg" border="0" />
+            <div class="column">
+                <div class="speaker dot">
+                    <span>9 AM</span>
+                    <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
+                    <h3>Let's begin</h3>
+                    <p></p><p></p>
                 </div>
-                <div class="name">
-                    Glen Maddern
+                <div class="speaker">
+                    <span>9:15 AM</span>
+                    <img src="img/mathias.jpg" />
+                    <h4>Mathias Bynens <a href="https://twitter.com/mathias" target="_blank">@mathias</a></h4>
+                    <h3>3.14 things I didn’t know about CSS</h3>
+                    <p>
+                        This talk will showcase a series of obscure CSS fun facts, such as CSS syntax gimmicks and quirks, weird tricks that involve CSS in one way or another, and security vulnerabilities that are enabled by (ab)using CSS in unexpected ways.
+                    </p>
+                    <p>
+                        Mathias is a Belgian web standards enthusiast. He likes HTML,
+                        CSS, JavaScript, Unicode, performance, and security. At Opera Software
+                        he’s a member of the Developer Relations team.
+                    </p>
                 </div>
-                <div class="link">
-                    <a href="http://twitter.com/glenmaddern" target="_blank">@glenmaddern</a>
+                <div class="speaker">
+                    <span>10:00 AM</span>
+                    <img src="img/jennifer.jpg" />
+                    <h4>Jennifer Wong <a href="https://twitter.com/mybluewristband" target="_blank">@mybluewristband</a></h4>
+                    <h3>In the Year 2000... Designing Responsive Emails</h3>
+                    <p>
+                        What do you do when the project of redesigning emails AND making them responsive becomes yours? You've heard the rumors: designing emails means coding like it’s the year 2000, creating tables and adding styles inline, and throwing best practices and hopes of compatibility out the window. BREATHE. In this session, get your emails in shape for 2016 and ready for the responsive spotlight! We’ll see:
+                        <br/><br/>
+                        - Why you need a reusable, maintainable template and how to design one.<br/>
+                        - When and how to use media queries and the ever controversial !important.<br/>
+                        - What vendors and properties require CSS prefixes<Br/>
+                        - How to make desktop, mobile, and web-based clients play nicely with your code, and which ones to watch out for.
+                    </p>
+                    <p>
+                        Jennifer is a self taught web developer. She spends her days on the front end, making the web a prettier and more functional place. In a former life, she was a civil engineer and is still a registered Engineer in Training (No. EIT 121059) with the California Department of Consumer Affairs. She's a jane of all trades and loves eating, coding, and sleeping.
+                    </p>
                 </div>
-                <div class="bio" style="padding: 57px 0 0;">
-                    Glen Maddern is an<br/>
-                    independent front-end consultant<br/>
-                    from Melbourne, Australia. He's an<br/>
-                    organiser of CSS Conf AU, a co-creator<br/>
-                    of the CSS Modules standard, contributor<br/>
-                    to the JSPM ecosystem, and all-round<br/>
-                    builder of rad web things. But his<br/>
-                    true calling is to become the<br/>
-                    world's greatest GIF DJ<br/>
-                    (any day now...)
+                <div class="speaker break">
+                    <span>10:30 AM</span>
+                    <h3>Morning Snack</h3>
                 </div>
-            </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/aysha.jpg" border="0" />
+                <div class="speaker">
+                    <span>11:15 AM</span>
+                    <img src="img/jeff.jpg" />
+                    <h4>Jeffrey Lembeck <a href="https://twitter.com/jefflembeck" target="_blank">@jefflembeck</a></h4>
+                    <h3>Moneyball for Performance Metrics</h3>
+                    <p>
+                        The story behind Moneyball was centered around using metrics— newer, out-of-the-norm metrics— to build a better performing baseball team. This strategy of measurement was wildly successful, squeezing out more wins for less money. That works for baseball, why can’t it work for the web? Focusing on our most commonly measured stats only paints half the picture. In this talk, I’ll use those same ideas to give you better ways to determine the quickness at which users can access your site and help you turn up your speed.
+                    </p>
+                    <p>
+                        Jeff is a developer over at npm, inc. He writes a whole lot of
+                        code and the occasional post for A List Apart, has guest lectured and
+                        TA'd for Ada Developers Academy, and is a former member of the jQuery
+                        Mobile team. Jeff lives in Seattle where he obsesses over oyster happy
+                        hours and how to make the best negroni. He dreams of someday owning a
+                        hot tub boat.
+                    </p>
                 </div>
-                <div class="name">
-                    Aysha Anggraini
+                <div class="speaker">
+                    <span>11:45 AM</span>
+                    <img src="img/zell.jpg" />
+                    <h4>Zell Liew <a href="https://twitter.com/zellwk" target="_blank">@zellwk</a></h4>
+                    <h3>Animating SVGs</h3>
+                    <p>
+                        SVGs can be used to achieve amazing effects that improve users' experience on your website. They can do sweet things like icon morphing that was introduced in material design, create bouncy buttons that let the user know they're clicked, and many other effects that you can image. In this talk, we're going to dive deep into SVGs to learn how to use them, and how to create these cool effects for your own website.
+                    </p>
+                    <p>
+                        Zell is a freelance web developer based in Singapore. He loves working on the web so much that he spends all his free time diving deep into tools and frameworks to find out the best ways to work with them. He then shares everything he learned on his <a href="http://zell-weekeat.com/">blog</a>. He also authored <a href="http://zell-weekeat.com/learnsusy/">Learning Susy</a> and <a href="http://zell-weekeat.com/automate-your-workflow/">Automating Your Workflow with Gulp</a>.
+                    </p>
                 </div>
-                <div class="link">
-                    <a href="http://twitter.com/renettarenula" target="_blank">@renettarenula</a>
-                </div>
-                <div class="bio" style="padding: 34px 0 0;">
-                    Aysha Anggraini is a<br/>
-                    front-end engineer and wannabe<br/>
-                    designer at Viki, where she works<br/>
-                    closely with the UX team in order to<br/>
-                    build functional and beautiful UIs on<br/>
-                    viki.com and Viki's internal tools. When<br/>
-                    she is not super busy (which is rare<br/>
-                    these days), she either writes about<br/>
-                    geeky stuff on her blog renaysha.me<br/>
-                    or build experimental and pretty<br/>
-                    things on <a href="http://codepen.io/rrenula" target="_blank">CodePen</a>. She loves<br/>
-                    design, gaming, dancing,<br/>
-                    and Yoga.
-                </div>
-            </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/chris_lilley.jpg" border="0" />
-                </div>
-                <div class="name">
-                    Chris Lilley
-                </div>
-                <div class="link">
-                    <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a>
-                </div>
-                <div class="bio" style="padding: 40px 0 0;">
-                    Chris Lilley is a Technical<br/>
-                    Director at the World Wide Web<br/>
-                    Consortium (W3C). Considered “the<br/>
-                    father of SVG”, he also co-authored<br/>
-                    PNG, was co-editor of CSS2, chaired<br/>
-                    the group that developed @font-face,<br/>
-                    and co-developed WOFF. Ex Technical<br/>
-                    Architecture Group. Chris is still<br/>
-                    trying to get Color Management on<br/>
-                    the Web, sigh. Currently working<br/>
-                    on CSS levels 3/4/5 (no,<br/>
-                    really), Web Audio,<br/>
-                    and WOFF2.<br/>
-                </div>
-            </div>
-           <div class="speaker">
-                <div class="image">
-                    <img src="img/jeff.jpg" border="0" />
-                </div>
-                <div class="name">
-                    Jeffrey Lembeck
-                </div>
-                <div class="link">
-                    <a href="https://twitter.com/jefflembeck" target="_blank">@jefflembeck</a>
-                </div>
-                <div class="bio" style="padding: 37px 0 0;">
-                    Jeff Lembeck is a<br/>
-                    developer over at npm, inc.<br/>
-                    He writes a whole lot of code and<br/>
-                    the occasional post for A List Apart,<br/>
-                    has guest lectured and TA'd for Ada<br/>
-                    Developers Academy, and is a former<br/>
-                    member of the jQuery Mobile team. Jeff<br/>
-                    lives in Seattle where he obsesses over<br/>
-                    oyster happy hours and how to make<br/>
-                    the best negroni. He dreams of<br/>
-                    someday owning a<br/>
-                    hot tub boat.
+                <div class="speaker">
+                    <span>1 PM</span>
+                    <img src="img/lachlan.jpg" />
+                    <h4>Lachlan Priest<a href="https://twitter.com/lcpriest" target="_blank">@lcpriest</a></h4>
+                    <h3>PostCSS - JS your CSS</h3>
+                    <p>
+                        My talk on PostCSS (or how I sneak JavaScript into a CSSConf), will give you a quick overview of what PostCSS can do for you, how you can leverage PostCSS plugins to take a lot of the developer error out of front-end development.
+                    </p>
+                    <p>
+                        Originally from a farm in New Zealand, picked up programming while applying for a job in economics and never looked back. Mostly Rubyist, JS and CSS are my second and third loves. I teach people how to code through Rails Girls and Ruby Tea Party as I want to demystify the industry.
+                    </p>
                 </div>
             </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/apoorv.jpg" border="0" />
+            <div class="column">
+                <div class="speaker">
+                    <span>1:30 PM</span>
+                    <img src="img/mark.jpg" />
+                    <h4>Mark Dalgleish <a href="https://twitter.com/markdalgleish" target="_blank">@markdalgleish</a></h4>
+                    <h3>The End of Global CSS</h3>
+                    <p>
+                        The global nature of CSS selectors is often at odds with the locally-scoped nature of component-based web applications. CSS Modules are a new, community-driven attempt to allow us to import CSS into our JavaScript files, bypassing the global scope and enabling powerful new patterns for writing CSS in the component age.
+                    </p>
+                    <p>
+                        Mark is the co-creator of CSS Modules, lead organiser of MelbJS, and interaction craftsman at SEEK—the most popular job site in Australia. Having got his start with HTML and UI design at a young age, he has since developed a love of open source and software engineering, but always as a means to creating elegant, usable experiences.
+                    </p>
                 </div>
-                <div class="name">
-                    Apoorv Saxena
+                <div class="speaker">
+                    <span>2 PM</span>
+                    <img src="img/glen_maddern.jpg" />
+                    <h4>Glen Maddern <a href="https://twitter.com/glenmaddern" target="_blank">@glenmaddern</a></h4>
+                    <h3>Building a modern mobile web UI</h3>
+                    <p>
+                        There have been a lot of ideas and a lot of speculation about the future of CSS in the last year or so. Will we write styling code purely in JS? Will CSS still have a place, and if so, what will it look like? And how long will we have to wait before we can take the next step?<br/>
+                        I'll be talking about two projects I've been heavily involved in — Interoperable CSS and CSS Modules. I'll show how they are fundamentally changing what CSS is capable of, drastically simplifying the areas that cause the most headaches. And, taking a lesson from the JS world and CSS preprocessors like Sass, why we don't have to wait for the browsers to catch up.
+                    </p>
+                    <p>
+                        Glen is an independent front-end consultant from Melbourne, Australia. He's an organiser of CSS Conf AU, a co-creator of the CSS Modules standard, contributor to the JSPM ecosystem, and all-round builder of rad web things. But his true calling is to become the world's greatest GIF DJ (any day now...)
+                    </p>
                 </div>
-                <div class="link">
-                    <a href="http://twitter.com/apoorv_saxena" target="_blank">@apoorv_saxena</a>
+                <div class="speaker break">
+                    <span>2:45 PM</span>
+                    <h3>Afternoon Snack</h3>
                 </div>
-                <div class="bio" style="padding: 94px 0 0;">
-                    A web standards lover,<br/>
-                    performance coach and polygot<br/>
-                    programmer. Apoorv works as Software<br/>
-                    Artisan at Wingify. In his spare time,<br/>
-                    he loves to experiment stuff<br/>
-                    in kitchen and travel.
+                <div class="speaker">
+                    <span>3:30 PM</span>
+                    <img src="img/apoorv.jpg" />
+                    <h4>Apoorv Saxena <a href="https://twitter.com/apoorv_saxena" target="_blank">@apoorv_saxena</a></h4>
+                    <h3>Performance beyond Page Load</h3>
+                    <p>
+                        Performance is now considered as a requirement, after evolving from the evolutionary phase of being a feature. Web has also evolved and so has it's reach into several devices other than desktop, which are less capable in comparison of performance. Thus, it has made all the more important for us to dive deep to learn how our CSS code works inside browser and how it affects the rendering performance of our webpage. I'll suggest you to be prepared to receive a performance dose in this talk, while I share our experiences while performance auditing several web applications.
+                    </p>
+                    <p>
+                        A web standards lover, performance coach and polygot programmer. Apoorv works as Software Artisan at Wingify. In his spare time he loves to experiment stuff in kitchen and travel.
+                    </p>
                 </div>
-            </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/mathias.jpg" border="0" />
+                <div class="speaker">
+                    <span>4:15 PM</span>
+                    <img src="img/aysha.jpg" />
+                    <h4>Aysha Anggraini <a href="https://twitter.com/renettarenula" target="_blank">@renettarenula</a></h4>
+                    <h3>Responsive Web Bloopers at Viki</h3>
+                    <p>
+                        How hard can responsive web be? It sounds simple: design for a number of screen sizes and just throw in several media queries and your website is now "responsive"! Unfortunately, this is not the case and responsive web hasn't made our job easier. Adopting responsive web design will force you to change your design, development, and testing workflow. Problems may also arise in different stages of the workflow. In this talk, we will talk about responsive web blunders at Viki, how we overcome it, and some tips on how you can avoid it.
+                    </p>
+                    <p>
+                        Aysha is a front-end engineer and wannabe designer at Viki, where she works closely with the UX team in order to build functional and beautiful UIs on viki.com and Viki's internal tools. When she is not super busy (which is rare these days), she either writes about geeky stuff on her blog renaysha.me or build experimental and pretty things on CodePen (codepen.io/rrenula). She loves design, gaming, dancing, and Yoga.
+                    </p>
                 </div>
-                <div class="name">
-                    Mathias Bynens
+               <div class="speaker">
+                    <span>4:45 PM</span>
+                    <img src="img/chris_lilley.jpg" />
+                    <h4>Chris Lilley <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a></h4>
+                    <h3>The state of web fonts</h3>
+                    <p>
+                        A talk about the state of web fonts.
+                    </p>
+                    <p>
+                        Chris Lilley is a Technical Director at the World Wide Web Consortium
+                        (W3C). Considered “the father of SVG”, he also co-authored PNG, was
+                        co-editor of CSS2, chaired the group that developed @font-face, and
+                        co-developed WOFF. Ex Technical Architecture Group. Chris is still
+                        trying to get Color Management on the Web, sigh. Currently working on
+                        CSS levels 3/4/5 (no, really), Web Audio, and WOFF2.
+                    </p>
                 </div>
-                <div class="link">
-                    <a href="http://twitter.com/mathias" target="_blank">@mathias</a>
-                </div>
-                <div class="bio" style="padding: 94px 0 0;">
-                    Mathias is a Belgian web<br/>
-                    standards enthusiast. He likes<br/>
-                    HTML, CSS, JavaScript, Unicode,<br/>
-                    performance, and security. At<br/>
-                    Opera Software he’s a member<br/>
-                    of the Developer Relations<br/>
-                    team.
-                </div>
-            </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/jennifer.jpg" border="0" />
-                </div>
-                <div class="name">
-                    Jennifer Wong
-                </div>
-                <div class="link">
-                    <a href="http://twitter.com/mybluewristband" target="_blank">@mybluewristband</a>
-                </div>
-                <div class="bio" style="padding: 52px 0 0;">
-                    Jennifer Wong is a<br/>
-                    self taught web developer.<br/>
-                    She spends her days on the front<br/>end,
-                    making the web a prettier and<br/>more
-                    functional place. In a former life,<br/>she
-                     was a civil engineer and is still a<br/>
-                     registered Engineer in Training with
-                     the<br/>California Department of Consumer<br/>
-                     Affairs. She's a jane of all
-                     trades<br/>and loves eating,
-                     coding, and<br/>sleeping.
-                </div>
-            </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/lachlan.jpg" border="0" />
-                </div>
-                <div class="name">
-                    Lachlan Priest
-                </div>
-                <div class="link">
-                    <a href="http://twitter.com/lcpriest" target="_blank">@lcpriest</a>
-                </div>
-                <div class="bio" style="padding: 80px 0 0;">
-                    Originally from a farm in New <br/>
-                    Zealand, picked up programming<br/>
-                    while applying for a job in economics<br/>
-                    and never looked back. Mostly Rubyist,<br/>
-                    JS and CSS are my second and third<br/>
-                    loves. I teach people how to code<br/>
-                    through Rails Girls and Ruby Tea<br/>
-                    Party as I want to demystify<br/>
-                    the industry.
+                <div class="speaker break">
+                    <span>5:30 PM</span>
+                    <h3>After-Party</h3>
+                    <p></p><p></p>
                 </div>
             </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/mark.jpg" border="0" />
-                </div>
-                <div class="name">
-                    Mark Dalgleish
-                </div>
-                <div class="link">
-                    <a href="http://twitter.com/markdalgleish" target="_blank">@markdalgleish</a>
-                </div>
-                <div class="bio" style="padding: 64px 0 0;">
-                    Mark Dalgleish is the<br/>
-                    co-creator of CSS Modules, lead<br/>
-                    organiser of MelbJS, and interaction<br/>
-                    craftsman at SEEK—the most popular job<br/>
-                    site in Australia. Having got his start<br/>
-                    with HTML and UI design at a young age,<br/>
-                    he has since developed a love of open<br/>
-                    source and software engineering, but<br/>
-                    always as a means to creating<br/>
-                    elegant, usable experiences.
-                </div>
-            </div>
-            <div class="speaker">
-                <div class="image">
-                    <img src="img/zell.jpg" border="0" />
-                </div>
-                <div class="name">
-                    Zell Liew
-                </div>
-                <div class="link">
-                    <a href="http://twitter.com/zellwk" target="_blank">@zellwk</a>
-                </div>
-                <div class="bio" style="padding: 62px 0 0;">
-                    Zell is a freelance web<br/>
-                    developer based in Singapore.<br/>
-                    He loves working on the web so much<br/>
-                    that he spends all his free time diving<br/>
-                    deep into tools and frameworks to find<br/>
-                    out the best ways to work with them. He<br/>
-                    then shares everything he learned on<br/>
-                    his <a href="http://zell-weekeat.com/">blog</a>. He also authored
-                    <a href="http://zell-weekeat.com/learnsusy/">Learning<br/>Susy</a> and
-                    <a href="http://zell-weekeat.com/automate-your-workflow/">Automating Your<br/>Workflow with Gulp</a>.
-                </div>
-            </div>
-            <br/>
-            <p style="text-align:center; width: 480px; padding: 0; margin: 0 auto; text-align: left;">These are our 10 amazing speakers for the year. You can <A href="https://www.eventnook.com/event/devfestasia2015/home">get your ticket here</a> and make sure you don't miss out! Stay updated with our newsletter below:</a></p>
-            <form id="subscribeForm" action="http://2014.cssconf.asia/addsubscriber.php" method="get">
-                <div class="input"><span><input type="text" name="fname" placeholder="First name" /><input type="email" name="email" placeholder="Email Address" /><input type="submit" value="Subscribe" /></span></div>
-                <div class="msg"><span></span></div>
-            </form>
-            <br/><br/><br/>
-        </section>
-        <!--<section id="about">
-            <h2>About</h2>
-
-        </section>
-        <section id="sponsors">
-            <h2>Sponsors</h2>
-            <div class="sponsor"></div>
-            <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHFbT0mLTNMtMGO1mo6yPRX" target="_blank" class="button">
-                Watch the talk videos!
+            <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" target="_blank" class="button">
+                Get your ticket
             </a>
-        </section>//-->
+        </section>
         <footer>
             <p>
                 <a href="http://2015.devfest.asia"><img src="http://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2015"/></a>
