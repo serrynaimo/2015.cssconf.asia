@@ -487,7 +487,7 @@ a {
 
 #body section h3 {
   font-size: 1.2em;
-  color: #e8b800;
+  color: #c7950a;
   text-shadow: 1px 1px 0px rgba(0,0,0,.5);
   font-family: 'Sanchez';
   margin: 40px auto 15px;
@@ -626,7 +626,7 @@ a {
     padding-top: 20px;
     font-size: 1.6em;
     font-family: 'Great Vibes';
-    color: #c7950a;
+    color: #e8b800;
     text-shadow: 1px 1px 0 rgba(0,0,0,.5);
     margin-bottom: 10px;
 }
