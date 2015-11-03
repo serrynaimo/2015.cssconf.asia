@@ -65,7 +65,7 @@
             <div class="column">
                 <div class="speaker dot">
                     <span>9 AM</span>
-                    <h4>Thomas Gorissen <a href="https://twitter.com/serrynaimo" target="_blank">@serrynaimo</a></h4>
+                    <h4>Huijing Chen <a href="https://twitter.com/hj_chen" target="_blank">@hj_chen</a></h4>
                     <h3>Let's begin</h3>
                     <p></p><p></p>
                 </div>
