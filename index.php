@@ -207,7 +207,6 @@
                     <h4>Chris Lilley <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a></h4>
                     <h3>The state of web fonts</h3>
                     <p>
-                        A talk about the state of web fonts.
                     </p>
                     <p>
                         Chris Lilley is a Technical Director at the World Wide Web Consortium
