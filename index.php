@@ -205,16 +205,15 @@
                     <span>4:45 PM</span>
                     <img src="img/chris_lilley.jpg" />
                     <h4>Chris Lilley <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a></h4>
-                    <h3>The state of web fonts</h3>
+                    <h3>WebFonts: Level up!</h3>
                     <p>
                     </p>
                     <p>
-                        Chris Lilley is a Technical Director at the World Wide Web Consortium
-                        (W3C). Considered “the father of SVG”, he also co-authored PNG, was
-                        co-editor of CSS2, chaired the group that developed @font-face, and
-                        co-developed WOFF. Ex Technical Architecture Group. Chris is still
-                        trying to get Color Management on the Web, sigh. Currently working on
-                        CSS levels 3/4/5 (no, really), Web Audio, and WOFF2.
+                        After attending this talk you will:<br/>
+                        - gain a clearer understanding of what webfonts do<br/>
+                        - be able to use the typographic richness of OpenType features in your CSS<br/>
+                        - see how to improve performance on desktop and mobile<br/>
+                        - be excited about cutting edge and future developments
                     </p>
                 </div>
                 <div class="speaker break">
