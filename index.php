@@ -41,12 +41,13 @@
             </a>
             <p class="links">
                 <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px" /></a>
+                <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
+                <a href="http://hired.com" target="_blank"><img src="img/hired.png" style="" /></a>
                 <a href="http://tradegecko.com" target="_blank"><img src="img/tradegecko.png" /></a>
                 <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
-                <a href="http://clubmate.sg" target="_blank"><img src="img/clubmate.png" style="width: 50px;" /></a>
-                <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
+                <a href="http://myrepublic.com.sg" target="_blank"><img src="img/myrepublic.png" /></a>
                 <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
-                <a href="http://hired.com" target="_blank"><img src="img/hired.png" style="" /></a>
+                <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
                 <a href="http://skyscanner.com" target="_blank"><img src="img/skyscanner.png" style="width: 120px;"/></a>
                 <a href="http://opera.com" target="_blank"><img src="img/opera.png" style="width: 85px;" /></a>
                 <a href="http://sonoport.com" target="_blank"><img src="img/sonoport.png" style="" /></a>
@@ -209,8 +210,13 @@
                     <span>4:45 PM</span>
                     <img src="img/chris_lilley.jpg" />
                     <h4>Chris Lilley <a href="https://twitter.com/svgeesus" target="_blank">@svgeesus</a></h4>
-                    <h3>The state of web fonts</h3>
+                    <h3>WebFonts: Level up!</h3>
                     <p>
+                        After attending this talk you will:<br/>
+                        - gain a clearer understanding of what webfonts do<br/>
+                        - be able to use the typographic richness of OpenType features in your CSS<br/>
+                        - see how to improve performance on desktop and mobile<br/>
+                        - be excited about cutting edge and future developments
                     </p>
                     <p>
                         Chris Lilley is a Technical Director at the World Wide Web Consortium
