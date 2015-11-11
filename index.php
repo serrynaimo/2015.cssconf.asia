@@ -134,6 +134,10 @@
                         Zell is a freelance web developer based in Singapore. He loves working on the web so much that he spends all his free time diving deep into tools and frameworks to find out the best ways to work with them. He then shares everything he learned on his <a href="http://zell-weekeat.com/">blog</a>. He also authored <a href="http://zell-weekeat.com/learnsusy/">Learning Susy</a> and <a href="http://zell-weekeat.com/automate-your-workflow/">Automating Your Workflow with Gulp</a>.
                     </p>
                 </div>
+                <div class="speaker break">
+                    <span>12:15 PM</span>
+                    <h3>Lunch is served</h3>
+                </div>
                 <div class="speaker">
                     <span>1 PM</span>
                     <img src="img/lachlan.jpg" />
