@@ -229,7 +229,7 @@ a {
 
 #intro .links {
   position: absolute;
-  bottom: -160px;
+  bottom: -120px;
   left: 0;
   margin: 0 auto;
   width: 100%;
@@ -237,6 +237,12 @@ a {
 }
 
 @media screen and (min-width: 640px) {
+  #intro .links {
+    bottom: -50px;
+  }
+}
+
+@media screen and (min-width: 800px) {
   #intro .links {
     bottom: -20px;
   }
