@@ -104,7 +104,7 @@
                 </div>
                 <div class="speaker break">
                     <span>10:30 AM</span>
-                    <h3>Morning Snack</h3>
+                    <h3>Morning coffee powered by Zopim</h3>
                 </div>
                 <div class="speaker">
                     <span>11:15 AM</span>
