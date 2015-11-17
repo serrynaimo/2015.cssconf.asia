@@ -170,7 +170,7 @@
                     <span>2 PM</span>
                     <img src="img/glen_maddern.jpg" />
                     <h4>Glen Maddern <a href="https://twitter.com/glenmaddern" target="_blank">@glenmaddern</a></h4>
-                    <h3>Building a modern mobile web UI</h3>
+                    <h3>The Rise of Modular Style</h3>
                     <p>
                         There have been a lot of ideas and a lot of speculation about the future of CSS in the last year or so. Will we write styling code purely in JS? Will CSS still have a place, and if so, what will it look like? And how long will we have to wait before we can take the next step?<br/>
                         I'll be talking about two projects I've been heavily involved in — Interoperable CSS and CSS Modules. I'll show how they are fundamentally changing what CSS is capable of, drastically simplifying the areas that cause the most headaches. And, taking a lesson from the JS world and CSS preprocessors like Sass, why we don't have to wait for the browsers to catch up.
