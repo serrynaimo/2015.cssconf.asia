@@ -235,7 +235,7 @@
                 </div>
             </div>
             <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" target="_blank" class="button">
-                Get your ticket
+                Sold out
             </a>
         </section>
         <footer>
