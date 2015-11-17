@@ -37,7 +37,7 @@
                 18th of November 2015, Singapore
             </p>
             <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" target="_blank" class="button">
-                Get your ticket
+                Sold out
             </a>
             <p class="links">
                 <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px" /></a>
@@ -257,8 +257,7 @@
     <nav>
         <img src="assets/cssconfasia_icon.png" height="48" /><br/>
         <a href="#speakers">Speakers</a> &nbsp; &#x2605; &nbsp;
-        <a href="http://facebook.com/cssconfasia">Updates</a> &nbsp; &#x2605; &nbsp;
-        <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly">Get Your Ticket</a>
+        <a href="http://twitter.com/cssconfasia">Updates</a>
     </nav>
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
