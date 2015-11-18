@@ -41,7 +41,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             </div>
             <div class="spoke-wrapper">
               <div class="spoke">
-                <img src="img/clubmate.png" style="width: 50px;">
+                <img src="img/clubmate.png" style="width: 100px;">
               </div>
             </div>
             <div class="spoke-wrapper">
@@ -73,7 +73,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             </div>
             <div class="spoke-wrapper">
               <div class="spoke">
-                <img src="img/zopim.png" style="width: 78px;">
+                <img src="img/zopim.png" style="width: 120px;">
               </div>
             </div>
             <div class="spoke-wrapper">
@@ -83,12 +83,12 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             </div>
             <div class="spoke-wrapper">
               <div class="spoke">
-                <img src="img/skyscanner.png" style="width: 120px;">
+                <img src="img/skyscanner.png" style="width: 190px;">
               </div>
             </div>
             <div class="spoke-wrapper">
               <div class="spoke">
-                <img src="img/opera.png" style="width: 85px;">
+                <img src="img/opera.png" style="width: 120px;">
               </div>
             </div>
             <div class="spoke-wrapper">
@@ -98,12 +98,12 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
             </div>
           </div>
         </div>
-      </div>   
+      </div>
     </div>
   </div>
 
   <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
-  <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>  
+  <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
   <script src="js/break.js"></script>
 </body>
