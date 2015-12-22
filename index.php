@@ -36,8 +36,8 @@
             <p class="date">
                 18th of November 2015, Singapore
             </p>
-            <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" target="_blank" class="button">
-                Sold out
+            <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHuiIn2HnJ965qO2k3aADqz" target="_blank" class="button">
+                Watch the videos!
             </a>
             <p class="links">
                 <a href="http://smove.sg" target="_blank"><img src="img/smove.png" style="margin-right: -2px" /></a>
