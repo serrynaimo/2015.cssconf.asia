@@ -234,8 +234,8 @@
                     <p></p><p></p>
                 </div>
             </div>
-            <a href="https://www.eventnook.com/event/devfestasia2015/register/jscssonly" target="_blank" class="button">
-                Sold out
+            <a href="https://www.youtube.com/playlist?list=PL37ZVnwpeshHuiIn2HnJ965qO2k3aADqz" target="_blank" class="button">
+                Watch the videos!
             </a>
         </section>
         <footer>
