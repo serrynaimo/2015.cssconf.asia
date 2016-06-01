@@ -13,7 +13,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CSSConf.Asia Singapore 2015</title>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Sanchez|Great+Vibes' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans|Sanchez|Great+Vibes' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/app3.css" />
 	<link rel="shortcut icon" href="favicon.png" >
 	<?php if(!strpos($_SERVER['HTTP_USER_AGENT'],'iPad')) { ?>
@@ -21,8 +21,8 @@
 	<?php } ?>
 	<meta property="og:title" content="CSSConf.Asia Singapore 2015"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="http://cssconf.asia/"/>
-	<meta property="og:image" content="http://cssconf.asia/assets/og_cssconfasia.jpg"/>
+	<meta property="og:url" content="//cssconf.asia/"/>
+	<meta property="og:image" content="//cssconf.asia/assets/og_cssconfasia.jpg"/>
 	<meta property="og:site_name" content="CSSConf.Asia"/>
 	<meta property="og:description" content="Bridging web design and implementation. 18th November 2015, Singapore. Follow us on Twitter @cssconfasia"/>
 	<meta name="title" content="CSSConf.Asia Singapore 2015"/>
@@ -36,7 +36,7 @@
 	<section id="background"></section>
 	<section id="intro">
 	    <div>
-    	    <div class="logo" style="opacity: 0;"><a href="http://twitter.com/cssconfasia"><img src="img/cssconfasia.svg" alt="CSSConf.Asia 2015 Singapore" /></a></div>
+    	    <div class="logo" style="opacity: 0;"><a href="https://twitter.com/cssconfasia"><img src="img/cssconfasia.svg" alt="CSSConf.Asia 2015 Singapore" /></a></div>
             <p class="date">
                 18th of November 2015, Singapore
             </p>
@@ -50,7 +50,7 @@
                 <a href="http://tradegecko.com" target="_blank"><img src="img/tradegecko.png" /></a>
                 <a href="http://piktochart.com" target="_blank"><img src="img/piktochart.png" style="" /></a>
                 <a href="http://myrepublic.com.sg" target="_blank"><img src="img/myrepublic.png" /></a>
-                <a href="http://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
+                <a href="https://redmart.com" target="_blank"><img src="img/redmart.png" style="" /></a>
                 <a href="http://zopim.com" target="_blank"><img src="img/zopim.png" style="width: 78px; margin-right: 10px;" /></a>
                 <a href="http://meteor.com" target="_blank"><img src="img/meteor.png" style="top: -5px;" /></a>
                 <a href="http://skyscanner.com" target="_blank"><img src="img/skyscanner.png" style="width: 120px;"/></a>
@@ -244,7 +244,7 @@
         </section>
         <footer>
             <p>
-                <a href="http://2015.devfest.asia"><img src="http://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2015"/></a>
+                <a href="https://2015.devfest.asia"><img src="https://2015.devfest.asia/images/logo.png" height="100" alt="Singapore DevFest.Asia 2015"/></a>
             </p>
             <p>
                 CSSConf.Asia is proudly part of Asia’s first<br/> community organized web developer festival.<br/><br/>
@@ -261,7 +261,7 @@
     <nav>
         <img src="assets/cssconfasia_icon.png" height="48" /><br/>
         <a href="#speakers">Speakers</a> &nbsp; &#x2605; &nbsp;
-        <a href="http://twitter.com/cssconfasia">Updates</a>
+        <a href="https://twitter.com/cssconfasia">Updates</a>
     </nav>
     <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
     <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
