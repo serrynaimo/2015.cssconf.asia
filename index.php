@@ -21,8 +21,8 @@
 	<?php } ?>
 	<meta property="og:title" content="CSSConf.Asia Singapore 2015"/>
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="//cssconf.asia/"/>
-	<meta property="og:image" content="//cssconf.asia/assets/og_cssconfasia.jpg"/>
+	<meta property="og:url" content="https://2015.cssconf.asia/"/>
+	<meta property="og:image" content="https://2015.cssconf.asia/assets/og_cssconfasia.jpg"/>
 	<meta property="og:site_name" content="CSSConf.Asia"/>
 	<meta property="og:description" content="Bridging web design and implementation. 18th November 2015, Singapore. Follow us on Twitter @cssconfasia"/>
 	<meta name="title" content="CSSConf.Asia Singapore 2015"/>
@@ -30,8 +30,8 @@
 </head>
 <body class="loading">
     <a href="https://jsconfasia.wufoo.com/forms/cssconf-and-jsconfasia/" id="thisyear" style="border-radius: 5px 0 0 5px; -webkit-transition: all 1s ease-out; -moz-transition: all 1s ease-out; transition: all 1s ease-out; border-left: 10px solid #c7950a; z-index: 99999; position: fixed; color: white; text-decoration: none; bottom: 40px; right: -400px; width: 320px; padding: 20px 30px; background: rgba(0,0,0,0.9); box-shadow: 3px 3px 5px rba(0,0,0,0.5);">
-        <b>CSSConf.Asia is back again this year!</b>
-        Click here for the CFP
+        <b>CSSConf.Asia is back again in 2016!</b>
+        Check it out!
     </a>
 	<section id="background"></section>
 	<section id="intro">
